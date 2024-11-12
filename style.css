@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+.inputBox{
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.inputBox img{
+    height: 34px;
+}
+#passwordEntry{
+    width: 400px;
+    height: 60px;
+    font-size: 34px;
+    outline: none;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+#strengthCheck{
+    margin-top: 12px;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 6px;
+    display: none;
+}
